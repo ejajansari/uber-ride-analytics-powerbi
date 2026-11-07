@@ -2,7 +2,7 @@
 
 An interactive, 6-page **Power BI** dashboard that turns 150,000 Uber ride bookings (January to December 2025) into clear KPIs and visual insights on revenue, vehicles, riders and locations.
 
-![Overview](screenshots/overview.png)
+![Overview](<Dashboard screenshot/Overview.png>) |
 
 ---
 
@@ -130,19 +130,20 @@ uber-ride-analytics-powerbi/
 3. If Power BI shows a data source error, go to **Home → Transform data → Data source settings**, choose **Change Source**, and point it to `data/uber.xlsx` on your computer.
 4. Click **Refresh**.
 
+
 ## Screenshots
 
 | Home | Overview |
 |---|---|
-| ![Home](screenshots/home.png) | ![Overview](screenshots/overview.png) |
+| ![Home](<Dashboard screenshot/Home.png>) | ![Overview](<Dashboard screenshot/Overview.png>) |
 
 | Vehicle | Revenue |
 |---|---|
-| ![Vehicle](screenshots/vehicle.png) | ![Revenue](screenshots/revenue.png) |
+| ![Vehicle](<Dashboard screenshot/Vehicle.png>) | ![Revenue](<Dashboard screenshot/Revenue.png>) |
 
 | Rider | Location |
 |---|---|
-| ![Rider](screenshots/rider.png) | ![Location](screenshots/location.png) |
+| ![Rider](<Dashboard screenshot/Rider.png>) | ![Location](<Dashboard screenshot/Location.png>) |
 
 ## Author
 
