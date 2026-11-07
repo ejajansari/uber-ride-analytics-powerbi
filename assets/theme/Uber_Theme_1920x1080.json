@@ -1,0 +1,32 @@
+{
+  "name": "Uber Dashboard 1920x1080",
+  "dataColors": ["#1A1A1A", "#2E8B6A", "#8C8C8C", "#CFCFCF", "#4D4D4D", "#6FBF9F", "#B3B3B3", "#333333"],
+  "background": "#FFFFFF",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#1A1A1A",
+  "good": "#2E8B6A",
+  "bad": "#D64545",
+  "neutral": "#8C8C8C",
+  "textClasses": {
+    "label": { "fontSize": 14, "fontFace": "Segoe UI", "color": "#4D4D4D" },
+    "callout": { "fontSize": 36, "fontFace": "Segoe UI Semibold", "color": "#1A1A1A" },
+    "title": { "fontSize": 18, "fontFace": "Segoe UI Semibold", "color": "#1A1A1A" },
+    "header": { "fontSize": 16, "fontFace": "Segoe UI Semibold", "color": "#1A1A1A" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F4F4" } }, "transparency": 0 }]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E5E5E5" } }, "radius": 12 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1A1A1A" } }, "fontSize": 18, "fontFamily": "Segoe UI Semibold" }],
+        "visualHeader": [{ "show": false }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#000000" } }, "transparency": 92, "preset": "Custom", "shadowBlur": 8, "shadowDistance": 2 }]
+      }
+    }
+  }
+}
